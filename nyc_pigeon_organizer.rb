@@ -10,8 +10,7 @@ def nyc_pigeon_organizer(data)
     pigeon_list[pigeon][key] ||= []
     pigeon_list[pigeon][key].push(colour.to_s)
    # binding.pry
-  end 
-  
+  end
   end 
 end 
 pigeon_list
